@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="70">
+	<defs>
+		<clipPath id="clip_0">
+			<rect y="-1360" width="1800" height="1500" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_0)">
+		<path fill="rgb(10,10,10)" stroke="none" d="M0 0L70 0L70 70L0 70L0 0Z"/>
+	</g>
+	<defs>
+		<clipPath id="clip_1">
+			<rect y="-1360" width="1800" height="1500" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_1)">
+		<path fill="rgb(255,255,255)" stroke="none" transform="translate(0 69)" d="M0 0L70 0L70 1L0 1L0 0Z"/>
+	</g>
+	<defs>
+		<clipPath id="clip_2">
+			<rect y="-1360" width="1800" height="1500" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_2)">
+		<path fill="rgb(255,255,255)" stroke="none" d="M0 0L70 0L70 1L0 1L0 0Z"/>
+	</g>
+	<defs>
+		<clipPath id="clip_3">
+			<rect y="-1360" width="1800" height="1500" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_3)">
+		<text fill="rgb(255,255,255)" stroke="none" transform="translate(70 26.0834)" font-size="16" font-weight="bold" font-family="Segoe UI Semibold, Segoe UI" x="0" y="16.101563">
+				L
+		</text>
+	</g>
+	<defs>
+		<clipPath id="clip_4">
+			<rect y="-1360" width="1800" height="1500" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_4)">
+		<path fill="rgb(255,255,255)" fill-opacity="0.098039217" stroke="none" transform="translate(15 15)" d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z"/>
+	</g>
+	<defs>
+		<clipPath id="clip_5">
+			<rect y="-1360" width="1800" height="1500" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_5)">
+		<path fill="rgb(35,31,32)" stroke="none" transform="translate(25 25)" d="M9.99865 0L15.9986 0C16.5506 0 16.9986 0.448 16.9986 1L16.9986 18C16.9986 18.552 16.5506 19 15.9986 19L9.99865 19C9.44665 19 8.99865 18.552 8.99865 18C8.99865 17.448 9.44665 17 9.99865 17L14.9986 17L14.9986 2L9.99865 2C9.44665 2 8.99865 1.552 8.99865 1C8.99865 0.448 9.44665 0 9.99865 0ZM10.9987 10.5L3.41275 10.5L5.53675 12.624C5.92775 13.015 5.92775 13.647 5.53675 14.038C5.34175 14.233 5.08575 14.331 4.82975 14.331C4.57375 14.331 4.31775 14.233 4.12275 14.038L0.29175 10.208C0.19975 10.115 0.12675 10.004 0.07575 9.882C-0.02525 9.638 -0.02525 9.362 0.07575 9.118C0.12675 8.996 0.19975 8.885 0.29175 8.792L4.12275 4.962C4.51375 4.571 5.14575 4.571 5.53675 4.962C5.92775 5.353 5.92775 5.985 5.53675 6.376L3.41275 8.5L10.9987 8.5C11.5507 8.5 11.9987 8.948 11.9987 9.5C11.9987 10.052 11.5507 10.5 10.9987 10.5Z" fill-rule="evenodd"/>
+	</g>
+	<defs>
+		<clipPath id="clip_6">
+			<path d="M40.9986 25L34.9986 25C34.4466 25 33.9986 25.448 33.9986 26C33.9986 26.552 34.4466 27 34.9986 27L39.9986 27L39.9986 42L34.9986 42C34.4466 42 33.9986 42.448 33.9986 43C33.9986 43.552 34.4466 44 34.9986 44L40.9986 44C41.5507 44 41.9986 43.552 41.9986 43L41.9986 26C41.9986 25.448 41.5507 25 40.9986 25ZM28.4128 35.5L35.9987 35.5C36.5508 35.5 36.9987 35.052 36.9987 34.5C36.9987 33.948 36.5508 33.5 35.9987 33.5L28.4128 33.5L30.5368 31.376C30.9277 30.985 30.9277 30.353 30.5368 29.962C30.1458 29.571 29.5138 29.571 29.1227 29.962L25.2917 33.792C25.1998 33.885 25.1268 33.996 25.0758 34.118C24.9748 34.362 24.9748 34.638 25.0758 34.882C25.1268 35.004 25.1998 35.115 25.2917 35.208L29.1227 39.038C29.3177 39.233 29.5737 39.331 29.8298 39.331C30.0858 39.331 30.3418 39.233 30.5368 39.038C30.9277 38.647 30.9277 38.015 30.5368 37.624L28.4128 35.5Z" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_6)">
+		<path fill="rgb(255,255,255)" stroke="none" transform="translate(20 20)" d="M0 0L30 0L30 30L0 30L0 0Z"/>
+	</g>
+
+</svg>

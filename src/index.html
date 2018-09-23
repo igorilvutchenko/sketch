@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<title>Sketch</title>
+	<link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+
+<div class="side">
+	<div class="avatar">
+		<img src="img/avatar.png" alt="" class="photo__img">
+	</div>
+	<ul class="nav flex-column side-menu">
+	  <li class="nav-item">
+	    <a class="nav-link active" href="#"><img src="img/icon.svg" alt=""></a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="#"><img src="img/swatch.svg" alt=""></a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="#"><img src="img/speed.svg" alt=""></a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link disabled" href="#"><img src="img/list.png" alt=""></a>
+	  </li>
+	</ul>
+	<button class="btn btn-exit"></button>
+</div>
+<section class="header">
+<div class="header__content">
+	<div class="header__content-left">			
+		<a href="#" class="btn btn-login"></a>
+		<nav aria-label="breadcrumb" id="breadcrumb">
+		  <ol class="breadcrumb">
+		    <li class="breadcrumb-item"><a href="#">Home</a></li>
+		    <li class="breadcrumb-item active" aria-current="page">Data</li>
+		  </ol>
+		</nav>
+	</div>		
+	<div><a href="#"><img src="img/logo.svg" alt=""></a></div>
+</div>
+
+  	<h1 class="header-title">Edit profile</h1>
+</section>
+
+<section class="main-section">
+	<div class="main-section__content row justify-content-end">
+		
+<form class="needs-validation brandname-form col-sm-9 col-md-6 offset-md-2" novalidate>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Brand name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="text" placeholder="Brand name" required>
+       <div class="invalid-feedback">
+       	<span>Error handling!</span>
+       </div>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
+    <div class="invalid-feedback">
+    	<span>Error handling!</span>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Brand name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="text" placeholder="Brand name" required>
+    <div class="invalid-feedback">
+    	<span>Error handling!</span>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Brand name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="text" placeholder="Brand name" required>
+    <div class="invalid-feedback">
+    	<span>Error handling!</span>
+    </div>
+  </div>
+</form>
+<div class="avatar-input col-sm-9 col-md-3 offset-md-1">
+	<div class="avatar-input__upload">
+		<div>
+			<a href="#">+</a>
+		</div>
+	</div>
+	<div class="avatar-input__content">
+		<p>Profile image</p>
+		<p>Upload a campaign profile image such as a brand or campaign logo</p>
+		<p>Recommended size 400x400 or larger in PNG or</p>
+	</div>
+</div>
+<div class="button-row row">
+	
+<div class="button-row__btn col-sm-12 col-md-8">	
+  <button type="submit" class="btn btn-submit "><span>Save</span></button>
+</div>
+</div>
+
+	</div>
+</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="js/scripts.min.js"></script>
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+</body>
+</html>
